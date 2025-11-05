@@ -1,0 +1,20 @@
+barber_app
+├── lib
+│   ├── main.dart
+│   ├── screens
+│   │   ├── login_screen.dart
+│   │   ├── home_screen.dart
+│   │   └── booking_screen.dart
+│   ├── widgets
+│   │   ├── custom_button.dart
+│   │   └── custom_input.dart
+│   ├── models
+│   │   ├── user.dart
+│   │   └── appointment.dart
+│   ├── services
+│   │   └── auth_service.dart
+│   └── utils
+│       ├── constants.dart
+│       └── theme.dart
+├── pubspec.yaml
+└── README.md
