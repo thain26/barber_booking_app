@@ -3,22 +3,14 @@ import '../../domain/entities/appointment.dart';
 
 class AppointmentModel extends Appointment {
   const AppointmentModel({
-    required String id,
-    required String userId,
-    required String service,
-    required DateTime date,
-    required int price,
-    required String status,
-    required DateTime createdAt,
-  }) : super(
-          id: id,
-          userId: userId,
-          service: service,
-          date: date,
-          price: price,
-          status: status,
-          createdAt: createdAt,
-        );
+    required super.id,
+    required super.userId,
+    required super.service,
+    required super.date,
+    required super.price,
+    required super.status,
+    required super.createdAt,
+  });
 
   factory AppointmentModel.fromFirestore(DocumentSnapshot doc) {
     final data = doc.data() as Map<String, dynamic>? ?? {};

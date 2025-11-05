@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../../../core/data/firebase_remote_data_source.dart';
 import '../model/appointment_model.dart';
 
